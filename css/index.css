@@ -66,7 +66,37 @@ p {
     line-height: 1.4;
 }
 
-.container {
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: flex-end;
+}
+
+header .logo{
+    margin-top: 20px;
+}
+
+header .jumbo{
+    width: 100%;
+    margin: 40px 0 22px 0;
+}
+
+header nav{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+    margin: 0 43px;
+}
+
+.container, header {
     width: 800px;
     margin: 0 auto;
 }
@@ -143,4 +173,44 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.boxes .box:first-child{
+    background-color: teal;
+}
+
+.boxes .box:nth-child(2){
+    background-color: gold;
+}
+
+.boxes .box:nth-child(3){
+    background-color: cadetblue;
+}
+
+.boxes .box:nth-child(4){
+    background-color: coral;
+}
+
+.boxes .box:nth-child(5){
+    background-color: crimson;
+}
+
+.boxes .box:nth-child(6){
+    background-color: forestgreen;
+}
+
+.boxes .box:nth-child(7){
+    background-color: darkorchid;
+}
+
+.boxes .box:nth-child(8){
+    background-color: hotpink;
+}
+
+.boxes .box:nth-child(9){
+    background-color: indigo;
+}
+
+.boxes .box:last-child{
+    background-color: dodgerblue;
 }
