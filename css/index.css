@@ -255,3 +255,52 @@ footer nav a {
 .about-page .text-container-bottom{
     margin: 50px 0px 40px 20px;
 }
+
+
+.contact-page .text-container{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contact-page .contact-form{
+    width: 70%;
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 50px auto;
+
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    padding: 0;
+    width: 100%;
+  }
+
+input, textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+  }
+
+  input:hover, textarea:hover{
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+  }
+
+  .contact-form button{
+      display: block;
+    background-color: white;
+    font-size: 16px;
+    padding: 8px 24px 9px 23px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.contact-form button:hover{
+    background: lightgray;
+    transition: background-color 0.3s ease-in-out;
+}
