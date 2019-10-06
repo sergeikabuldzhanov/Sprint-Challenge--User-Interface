@@ -256,6 +256,10 @@ footer nav a {
     margin: 50px 0px 40px 20px;
 }
 
+.contact-page.container{
+    position: relative;
+    top: 50px;
+}
 
 .contact-page .text-container{
     text-align: center;
@@ -303,4 +307,13 @@ input, textarea {
 .contact-form button:hover{
     background: lightgray;
     transition: background-color 0.3s ease-in-out;
+}
+
+.background-container{
+    color: white;
+    background: darkslateblue url(../img/skyscrapers.jpg) no-repeat scroll center/cover;
+    height: 376px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
